@@ -32,37 +32,4 @@ Tiruchirappalli, Tamil Nadu, India — 620002
 
 Feel free to suggest new tools, books, database references, or research queries using the form below. Messages are sent directly to **ponnivedha@gmail.com**.
 
-<div class="feedback-card">
-  <form action="https://formsubmit.co/ponnivedha@gmail.com" method="POST">
-    <input type="hidden" name="_subject" value="New Feedback / Query from Bioinformatics Hub">
-    <input type="hidden" name="_captcha" value="false">
-    <input type="hidden" name="_template" value="table">
-
-    <div class="form-group">
-      <label for="name">Your Name</label>
-      <input type="text" id="name" name="name" placeholder="Dr. / Prof. / Scholar Name" required>
-    </div>
-
-    <div class="form-group">
-      <label for="email">Your Email Address</label>
-      <input type="email" id="email" name="email" placeholder="name@institution.edu" required>
-    </div>
-
-    <div class="form-group">
-      <label for="topic">Topic / Category</label>
-      <select id="topic" name="topic">
-        <option value="Tool / Resource Suggestion">Tool / Resource Suggestion</option>
-        <option value="Book Recommendation">Book Recommendation</option>
-        <option value="Academic Collaboration">Academic Collaboration</option>
-        <option value="General Feedback / Correction">General Feedback / Correction</option>
-      </select>
-    </div>
-
-    <div class="form-group">
-      <label for="message">Your Message</label>
-      <textarea id="message" name="message" rows="5" placeholder="Write your feedback, recommended tool links, or query here..." required></textarea>
-    </div>
-
-    <button type="submit" class="submit-btn">Send Message ✉️</button>
-  </form>
-</div>
+<ContactForm />
