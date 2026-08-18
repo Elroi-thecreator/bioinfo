@@ -5,6 +5,9 @@ hero:
   name: "Bioinformatics Hub"
   text: "Curated Knowledge Base"
   tagline: "Essential tools, reference literature, workflow engines, and interactive learning platforms."
+  image:
+    src: /logo.png
+    alt: Bioinformatics Hub DNA Helix Logo
   actions:
     - theme: brand
       text: 📚 Explore Literature
