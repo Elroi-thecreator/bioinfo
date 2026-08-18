@@ -4,8 +4,16 @@ export default defineConfig({
   title: "Bioinformatics Hub",
   description: "Curated tools, literature, databases, and workflow guides",
   cleanUrls: true,
+  head: [
+    ['link', { rel: 'icon', type: 'image/png', href: '/favicon.png' }],
+    ['meta', { name: 'theme-color', content: '#0284c7' }]
+  ],
   themeConfig: {
-    siteTitle: "🧬 Bioinformatics Hub",
+    logo: {
+      src: '/logo.png',
+      alt: 'Bioinformatics Hub Logo'
+    },
+    siteTitle: "Bioinformatics Hub",
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Books', link: '/books' },
