@@ -18,7 +18,7 @@ Curated list of primary biological data repositories, reference catalogs, and in
   * Protein sequences, functional domain annotations, active sites, and post-translational modifications.
 
 * **RCSB Protein Data Bank (PDB):**
-  * 3D experimental structures of proteins, nucleic acids, and practical biological assemblies.
+  * 3D experimental structures of proteins, nucleic acids, and macromolecular assemblies.
 
 ---
 

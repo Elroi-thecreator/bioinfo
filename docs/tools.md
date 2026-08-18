@@ -1,12 +1,12 @@
 # Core Software & Command-Line Utilities
 
-A structured reference guide to the fundamental command-line utilities used across standard NGS and computational biology pipelines.
+A structured reference guide to the fundamental command-line utilities used across standard NGS and computational biology workflows.
 
 ---
 
 ## Quality Control & Preprocessing
 
-| Tool | Purpose | Example Command |
+| Tool | Focus Area | Example Command |
 | :--- | :--- | :--- |
 | **FastQC** | Evaluates raw sequencing read quality metrics (per-base scores, GC content, adapters). | `fastqc sample_R1.fastq.gz sample_R2.fastq.gz -o qc_out/` |
 | **fastp** | All-in-one ultra-fast FASTQ preprocessor (QC, adapter trimming, polyG tail trimming). | `fastp -i in_1.fq.gz -I in_2.fq.gz -o out_1.fq.gz -O out_2.fq.gz -h report.html` |
@@ -22,7 +22,7 @@ A structured reference guide to the fundamental command-line utilities used acro
   ```bash
   bwa-mem2 mem -t 8 ref.fa read1.fastq.gz read2.fastq.gz | samtools sort -o aligned.bam
   ```
-* **STAR (Spliced Transcripts Alignment to a Reference):** Ultrafast RNA-seq aligner capable of identifying novel splice junctions.
+* **STAR (Spliced Transcripts Alignment to a Reference):** Ultrafast RNA-seq aligner capable of detecting non-canonical splice junctions.
   ```bash
   STAR --runThreadN 16 --genomeDir /path/to/index --readFilesIn r1.fq.gz r2.fq.gz --readFilesCommand zcat --outSAMtype BAM SortedByCoordinate
   ```
@@ -53,7 +53,7 @@ bcftools mpileup -Ou -f ref.fasta aligned.sorted.bam | bcftools call -mv -Ob -o 
 ```
 
 ### BEDtools
-The "Swiss Army knife" for genomic arithmetic:
+The standard toolkit for genomic interval arithmetic:
 
 ```bash
 # Intersecting genomic intervals
