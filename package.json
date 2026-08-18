@@ -1,14 +1,14 @@
 {
   "name": "bioinformatics-hub",
   "version": "1.0.0",
-  "description": "A curated knowledge base for bioinformatics tools, literature, databases, and workflows",
+  "description": "Curated knowledge base for bioinformatics tools, literature, databases, and workflows",
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },
   "keywords": ["bioinformatics", "genomics", "computational-biology", "vitepress"],
-  "author": "",
+  "author": "Dr. Pon Nivedha Rajamanickam",
   "license": "MIT",
   "devDependencies": {
     "vitepress": "^1.0.0"
