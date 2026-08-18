@@ -2,6 +2,13 @@
 
 A curated static documentation site built with [VitePress](https://vitepress.dev/) containing essential bioinformatics tools, foundational literature, primary databases, and pipeline engineering guides.
 
+**Maintained by:**  
+**Dr. Pon Nivedha Rajamanickam**  
+Assistant Professor, Department of Biotechnology and Bioinformatics,  
+Holy Cross College (Autonomous), Tiruchirappalli, Tamil Nadu, India.
+
+---
+
 ## Quick Start (Local Development)
 
 ```bash
