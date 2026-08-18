@@ -26,4 +26,7 @@ features:
   - icon: 🗄️
     title: Databases & Interactive Prep
     details: Primary biological data repositories and problem-solving platforms like Rosalind and Galaxy.
+  - icon: 🎓
+    title: Academic Initiative
+    details: Maintained by Dr. Pon Nivedha Rajamanickam, Department of Biotechnology and Bioinformatics, Holy Cross College, Tiruchirappalli.
 ---
