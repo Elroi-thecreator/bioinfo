@@ -3,16 +3,13 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Bioinformatics Hub",
   description: "Curated tools, literature, databases, and workflow guides",
-  cleanUrls: true,
   head: [
     ['link', { rel: 'icon', type: 'image/png', href: '/favicon.png' }],
-    ['meta', { name: 'theme-color', content: '#0284c7' }]
+    ['meta', { name: 'theme-color', content: '#0284c7' }],
+    ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0' }]
   ],
   themeConfig: {
-    logo: {
-      src: '/logo.png',
-      alt: 'Bioinformatics Hub Logo'
-    },
+    logo: '/logo.png',
     siteTitle: "Bioinformatics Hub",
     nav: [
       { text: 'Home', link: '/' },
@@ -43,7 +40,7 @@ export default defineConfig({
       provider: 'local'
     },
     footer: {
-      message: 'Maintained by Dr. Pon Nivedha Rajamanickam, Assistant Professor, Dept. of Biotechnology and Bioinformatics, Holy Cross College, Tiruchirappalli, India.',
+      message: 'Maintained by Dr. Pon Nivedha Rajamanickam, Assistant Professor, Dept. of Biotechnology and Bioinformatics, Holy Cross College, Tiruchirappalli, India (Email: ponnivedha@gmail.com).',
       copyright: 'Copyright © 2026 Bioinformatics Hub'
     }
   }
