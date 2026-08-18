@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: bioinfo-hub
+    name: bioinformatics-hub
     runtime: static
     buildCommand: npm run docs:build
     staticPublishPath: docs/.vitepress/dist
